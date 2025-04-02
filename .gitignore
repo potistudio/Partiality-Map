@@ -1,11 +1,19 @@
-# env
-.env
-
-# macOS
-.DS_Store
-
 # Node
 node_modules
+
+# Output
+.output
+.vercel
+/.svelte-kit
+/dist
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
 
 # Yarn v4
 .pnp.*
@@ -15,3 +23,7 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
